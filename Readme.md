@@ -1,5 +1,5 @@
-##Barrier implementation using OpenMP and MPI
-
+## Barrier implementation using OpenMP and MPI
+===========================
 This repo is project 2 of CS6210 in Gatech.
 
 This project implemented centralized (sense reversing) barrier and dissemination barrier using OpenMP, and implemented dissemination barrier and MCS barrier using MPI. In addition, we implemented a combined MP-MPI barrier to synchronize between multiple cluster nodes that are each running multiple threads.
@@ -9,8 +9,8 @@ We also conducted several performance evaluation, more details can be seen in wa
 Group Member: Linhan Wei, Haoran Li
 Submission Date: Oct. 22, 2018
 
-##Start-up Instruction
-
+## Start-up Instruction
+===========================
 To compile the source code and run the experiment, enter the following code in terminal (tested in Jinx compute cluster in Georgia Tech)
 
 ```
